@@ -1,0 +1,254 @@
+/* TODO: Set the font size and line height */
+* {
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: black;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 70px;
+}
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-image: url(https://w0.peakpx.com/wallpaper/456/585/HD-wallpaper-nexus-android-art-blue-dark-darkdroid-geek-nerd.jpg);
+    color: #fff;
+    font-family: sans-serif;
+
+  }
+  
+  .new-wrap {
+      flex-direction: row;
+  }
+
+  h1 {
+      font-size: 4em;
+      font-family: sans-serif;
+      background: none;
+  }
+
+nav{
+    background: none;
+    padding: 40px;
+}
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style-type: none;
+    background: none;
+  }
+  nav li {
+      background: none;
+  }
+  
+  nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: sans-serif;
+    background: none;
+    padding: 2rem;
+    font-size: 30px;
+  }
+
+  .container {
+    background-image: url(https://w0.peakpx.com/wallpaper/456/585/HD-wallpaper-nexus-android-art-blue-dark-darkdroid-geek-nerd.jpg);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    margin-right: 25px;
+}
+
+  .inside {
+    display: flex;
+    min-width: 300px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    width: 90%;
+    border: 4px solid white;
+    border-radius: 10px;
+    padding: 76px;
+    margin: 20px;
+    height: 172px;
+
+  }
+.inside a {
+    background: transparent;
+    text-decoration: none;
+}
+
+  h2 {
+    font-family: sans-serif;
+    background-color: darkgrey;
+    text-align: center;
+    margin: -62px -62px -8px -61px;
+    font-size: 3rem;
+    padding: 1rem;
+    border: black 3px solid;
+    border-radius: 20px;
+    width: 100%;
+  }
+  
+  .inside:hover {
+    background-color: #fff;
+    box-shadow:
+      0 0 5px 5px #fff,  
+      0 0 5px 5px #f0f,
+      0 0 5px 5px #0ff;
+  }
+
+  .button-in-section {
+    transition: opacity 0.2s linear;
+    font-family: monospace;
+    font-weight: bolder;
+    text-shadow: #fff;
+    font-size: 18px;
+    background: linear-gradient(white, grey);
+    border:1px solid none;    
+    height:100px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:100px;
+    transform: translate();
+    opacity: 0;
+
+  }
+
+  .topwrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  button:hover {
+      display:block
+  }
+
+  aside {
+      padding: 40px;
+  }
+
+  .aside-container {
+    border: 5px white solid;
+    height: 1032px;
+    border-radius: 30px;
+    flex-grow: 1;
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h3 {
+    font-family: sans-serif;
+    background-color: darkgrey;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem;
+    border: black 3px solid;
+    border-radius: 20px;
+  }
+  aside img {
+    height: 687px;
+    width: 614px;
+  }
+  aside p {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+  }
+
+  .inside:hover .button-in-section {
+      opacity: 1;
+      cursor: pointer;
+  }
+
+  .button-in-section:active {
+    box-shadow: inset 15px 15px 3px 7px rgba(0, 0, 0, 0.4);
+    font-size: 17px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: white;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: indigo;
+  }
+
+.linkin {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.linkin a {
+    font-size: 50px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.linkin img {
+    width: 50px;
+    height: 50px;
+}
+
+  section p {
+      color: white;
+  }
+
+  ul a:hover {
+      color: yellowgreen;
+  }
+
+  ul a:active {
+    color: darkblue;
+}
+
+@media only screen and (max-width: 1200px) {
+    .aside-container, .container {
+        width: 100%;
+    }
+    .aside-container {
+        max-width: none;
+    }
+}
+
